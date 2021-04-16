@@ -12,7 +12,7 @@ pip install titiler folium requests
 
 Titiler is a dynamic tiler server that can read data from a COG file and generate web map tiles.
 
-`cd` into app directory. Launch TiTiler application:
+`cd` into app directory. Launch TiTiler application (in a separate terminal):
 
 ```
 uvicorn main:app --reload
